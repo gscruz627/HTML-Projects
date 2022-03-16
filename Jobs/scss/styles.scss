@@ -1,0 +1,87 @@
+// Version for large devices (PC, Laptop, +768px)
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import "roots.scss";
+
+div.container{
+    margin: 1rem 10%;
+    #search-form{
+        display:grid;
+        grid-template-columns: 35% 65%;
+        img{ width: 35rem; position:absolute; bottom:20%; right:5%} //For some reason img won't change inside divs;
+        div{
+            text-align:center;
+            h1{
+                font-size:3.15rem;
+                text-align:left;
+            }
+            form{
+                margin-top:3rem;
+                button{
+                    width:15rem;
+                    text-align:center;
+                }
+            }
+        }
+    }
+    section:not(#search-form):not(#locals):not(#join-people){
+        margin-top:5rem;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-columns: 50% 50%;
+        div:not(.letters){
+          grid-row: 1 / 10; 
+        }
+    }
+    #locals{
+        ul{
+            display:grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto auto auto;
+            gap:calc(2% + 1px);
+            li{
+                img{ border-top-left-radius: 15px; border-top-right-radius: 15px;}
+                div{padding:1rem; }
+                border-radius:15px;
+                box-shadow: 2px 2px 10px 2px rgb(230, 230, 230);
+            }
+        }
+    }
+    #find-people{
+        padding:10rem;
+    }
+    #video{
+        gap:50px;
+        div{
+            iframe{
+                margin: 10% 0;
+                height:309.5px;
+            }
+            h1{
+                margin-top:10%;
+                word-wrap:break-word;
+                overflow-wrap: break-word;
+            }
+            p{
+                word-wrap:break-word;
+                overflow-wrap:break-word;
+                overflow:hidden;
+            }
+        }
+    }
+    #join-people{
+        h1{ font-size:40px;}
+        a{
+
+        }
+    }
+    footer{
+        margin: 0 -18%;
+        display:grid;
+        grid-template-columns:auto auto auto auto auto;
+        justify-content: center;
+        gap:100px;
+    }
+    #lower-footer{
+        p{ display: inline}
+    }
+}

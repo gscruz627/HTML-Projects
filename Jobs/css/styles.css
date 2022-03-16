@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+div.container {
+  margin: 1rem 10%;
+}
+div.container #search-form {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+div.container #search-form img {
+  width: 35rem;
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+div.container #search-form div {
+  text-align: center;
+}
+div.container #search-form div h1 {
+  font-size: 3.15rem;
+  text-align: left;
+}
+div.container #search-form div form {
+  margin-top: 3rem;
+}
+div.container #search-form div form button {
+  width: 15rem;
+  text-align: center;
+}
+div.container section:not(#search-form):not(#locals):not(#join-people) {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: 50% 50%;
+}
+div.container section:not(#search-form):not(#locals):not(#join-people) div:not(.letters) {
+  grid-row: 1/10;
+}
+div.container #locals ul {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  gap: calc(2% + 1px);
+}
+div.container #locals ul li {
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 2px #e6e6e6;
+}
+div.container #locals ul li img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+div.container #locals ul li div {
+  padding: 1rem;
+}
+div.container #find-people {
+  padding: 10rem;
+}
+div.container #video {
+  gap: 50px;
+}
+div.container #video div iframe {
+  margin: 10% 0;
+  height: 309.5px;
+}
+div.container #video div h1 {
+  margin-top: 10%;
+}
+div.container #join-people h1 {
+  font-size: 40px;
+}
+div.container footer {
+  margin: 0 -18%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  gap: 100px;
+}
+div.container #lower-footer p {
+  display: inline;
+}
+
+/*# sourceMappingURL=styles.css.map */
