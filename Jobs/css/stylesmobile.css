@@ -288,7 +288,7 @@ div.container .main-section-reglog {
   grid-template-columns: auto;
 }
 div.container .main-section-reglog .box {
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 div.container .main-section-reglog .box h1 {
   font-size: 2rem;
@@ -297,7 +297,7 @@ div.container .main-section-reglog .box h1 {
 div.container .main-section-reglog .box form {
   margin-top: 2rem;
 }
-div.container .main-section-reglog .box form input[type=text] {
+div.container .main-section-reglog .box form input {
   outline: none;
   border: none;
   width: 100%;

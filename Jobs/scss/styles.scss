@@ -71,7 +71,7 @@ div.container{
     #join-people{
         h1{ font-size:40px;}
         a{
-
+            color:lightblue;
         }
     }
     footer{
@@ -84,4 +84,12 @@ div.container{
     #lower-footer{
         p{ display: inline}
     }
+    .main-section-reglog{
+    .box{
+        box-shadow:2px -2px 50px 10px rgb(180, 180, 180);
+        padding:1rem;
+        margin:0;
+    } }
 }
+
+//Details for form modal in signup/register side (only working on large screen devices)
