@@ -23,7 +23,7 @@ div.container{
             }
         }
     }
-    section:not(#search-form):not(#locals):not(#join-people){
+    section:not(#search-form):not(#locals):not(#join-people):not(.non-grid){
         margin-top:5rem;
         display:grid;
         grid-template-columns: auto;

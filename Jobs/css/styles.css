@@ -26,13 +26,13 @@ div.container #search-form div form button {
   width: 15rem;
   text-align: center;
 }
-div.container section:not(#search-form):not(#locals):not(#join-people) {
+div.container section:not(#search-form):not(#locals):not(#join-people):not(.non-grid) {
   margin-top: 5rem;
   display: grid;
   grid-template-columns: auto;
   grid-template-columns: 50% 50%;
 }
-div.container section:not(#search-form):not(#locals):not(#join-people) div:not(.letters) {
+div.container section:not(#search-form):not(#locals):not(#join-people):not(.non-grid) div:not(.letters) {
   grid-row: 1/10;
 }
 div.container #locals ul {
